@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:background="@drawable/shape"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_list_image"
+            android:layout_margin="20dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_baseline_product"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Title"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:id="@+id/tv_product_title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Id"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:id="@+id/tv_product_id"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:id="@+id/tv_category"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product MRP :- "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:text="Price"
+                    android:id="@+id/price_mrp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Sp :- "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:text="Price"
+                    android:id="@+id/price_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_toLeftOf="@+id/edit"
+            android:id="@+id/delete"
+            android:layout_marginTop="20dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_baseline_delete"/>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

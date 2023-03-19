@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "721551051179",
+    "firebase_url": "https://fir-realtimedatabase-c20cc-default-rtdb.firebaseio.com",
+    "project_id": "fir-realtimedatabase-c20cc",
+    "storage_bucket": "fir-realtimedatabase-c20cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721551051179:android:46286d11422d24c316aaee",
+        "android_client_info": {
+          "package_name": "com.innovapptive.admincontrols"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nz_BWH4igJxH8Js0Wk5IxcQWa7SYPHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721551051179:android:078adb3ae6e9ab6416aaee",
+        "android_client_info": {
+          "package_name": "com.innovapptive.adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nz_BWH4igJxH8Js0Wk5IxcQWa7SYPHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721551051179:android:ebfc2f16b43e661716aaee",
+        "android_client_info": {
+          "package_name": "com.innovapptive.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nz_BWH4igJxH8Js0Wk5IxcQWa7SYPHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721551051179-7ig0t2qdg0hjcn8ip87mk0g5rgt7eg6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
